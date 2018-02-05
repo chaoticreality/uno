@@ -466,7 +466,6 @@ if __name__ == "__main__":
                 except:
                     print(Fore.RED + "Invalid card, try again. You played: {}" + Fore.RESET).format(card)
                     turn_over = False
-                    p.said_uno = False
 
                 # Check for UNO
                 if p.num_cards() == 1:
